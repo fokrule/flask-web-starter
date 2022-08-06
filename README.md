@@ -26,25 +26,6 @@ You can see the application live at:
 * **HTML, CSS:** Frontend structure and styling
 * **python-dotenv:** For managing environment variables locally (though handled differently on PythonAnywhere free tier)
 
-## Project Structure
-
-
-flask-web-starter/
-├── main.py             # Main application entry point
-├── requirements.txt    # Python dependencies
-├── .env                # Environment variables (for local development)
-└── website/            # Flask blueprint for application logic
-├── init.py     # Initializes the 'website' package and creates the Flask app
-├── auth.py         # Handles authentication routes (login, logout)
-├── views.py        # Handles general views (home, about, quote)
-├── models.py       # Placeholder for database models (if any were added)
-└── templates/      # HTML templates
-├── base.html   # Base template for consistent layout
-├── home.html
-├── about.html
-├── login.html
-└── quote.html
-
 
 ## Setup Instructions (Local Development)
 
@@ -52,10 +33,9 @@ To run this project on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git) flask-web-starter
+    git clone [git@github.com:fokrule/flask-web-starter.git](git@github.com:fokrule/flask-web-starter.git) flask-web-starter
     cd flask-web-starter
     ```
-    (Replace `your-username` and `your-repo-name` with your actual GitHub details.)
 
 2.  **Create a virtual environment:**
     ```bash
