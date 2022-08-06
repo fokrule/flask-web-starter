@@ -33,7 +33,7 @@ To run this project on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [git@github.com:fokrule/flask-web-starter.git](git@github.com:fokrule/flask-web-starter.git) flask-web-starter
+    git clone git@github.com:fokrule/flask-web-starter.git
     cd flask-web-starter
     ```
 
